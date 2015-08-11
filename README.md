@@ -3,11 +3,11 @@ A simple, lightweight jQuery plugin for rotating through images, text, or other 
 
 ## Installation:
 
-1. Add the function file to you site or javascript file.
+Add the function file to you site or javascript file.
 ```javascript  
 	<script src="rotateElements.js"></script>
 ```  
-2. Create an HTML structure with a parent container and child elements to be rotated
+Create an HTML structure with a parent container and child elements to be rotated
 ```html  
 	<div class="homeBgContainer">
 		<!--Can include any elements you want to rotate-->
@@ -16,18 +16,18 @@ A simple, lightweight jQuery plugin for rotating through images, text, or other 
 		<h1>Are all frogs green?</h1>
 	</div>
 ```  
-3. Target the parent HTML element using jQuery, then add the function below:
-```  
-.cycleContent({
-	speed: 2000,
-	displaytime: 4000
-})
-```  
-like this:
-```	
+Target the parent HTML element using jQuery, then add the function below (The default fade transition is 2 seconds, the the default display time for each element is 4 seconds):
+```javascript	
 $('.homeBgContainer').cycleContent({
 	speed: 2000,
 	displaytime: 4000
 })
 ```  
-4. Adjust the options for speed (speed of fade transition) and display time (length element is displayed before changing)
+Adjust the options for the speed of fade transition and display time (length element is displayed before changing):
+
+```javascript	
+$('.homeBgContainer').cycleContent({
+	speed: 3000,
+	displaytime: 5000
+})
+```  
