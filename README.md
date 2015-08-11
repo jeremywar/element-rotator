@@ -19,15 +19,15 @@ A simple, lightweight jQuery plugin for rotating through images, text, or other 
 3. Target the parent HTML element using jQuery, then add the function below:
 
 >	`.cycleContent({
-> >		speed: 2000,
-> >		displaytime: 4000
+>		speed: 2000,
+>		displaytime: 4000
 >	})`
 
 	like this:
 	
 >	`$('.homeBgContainer').cycleContent({
-> >		speed: 2000,
-> >		displaytime: 4000
+>		speed: 2000,
+>		displaytime: 4000
 >	})`
 
 4. Adjust the options for speed (speed of fade transition) and display time (length element is displayed before changing)
