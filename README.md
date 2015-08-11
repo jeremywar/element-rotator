@@ -28,5 +28,5 @@ Adjust the options for the speed of fade transition and display time (length ele
 $('div').cycleContent({
 	speed: 3000,
 	displaytime: 5000
-})
+});
 ```  
