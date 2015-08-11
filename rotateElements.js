@@ -6,8 +6,13 @@
     var displaytime;
     var elementNumber;
     $.fn.cycleContent = function (options) {
+        if (typeof options === 'undefined') {
+            options = {speed:2000, displaytime:4000} //create options object if it doesn't exist
+        }
         speed = options.speed;
         displaytime = options.displaytime;
+        (typeof speed === 'undefined' || !speed > -1) ? 2000 : speed; //set default speed
+        (typeof elementNumber === 'undefined' || !displaytime > -1) ? 4000 : displaytime; //set default displaytime
         elementNumber = 1;
         if (!$(this).css('position') == 'absolute' && !$(this).css('position') == 'relative') {
             $(this).css('position', 'relative')

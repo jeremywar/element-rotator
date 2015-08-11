@@ -1,5 +1,7 @@
 # element-rotator
 A simple, lightweight jQuery plugin for rotating through images, text, or other elements.
+There are many rotator plugins out there with many options and are very large, my goal with this function is to write it short and sweet, with only two options.
+The transition effect for this function is a "fade" with optional speed and display times.
 
 ## Installation:
 
@@ -18,10 +20,7 @@ Create an HTML structure with a parent container and child elements to be rotate
 ```  
 Target the parent HTML element using jQuery, then add the function below (The default fade transition is 2 seconds, the the default display time for each element is 4 seconds):
 ```javascript	
-$('.homeBgContainer').cycleContent({
-	speed: 2000,
-	displaytime: 4000
-})
+$('.homeBgContainer').cycleContent();
 ```  
 Adjust the options for the speed of fade transition and display time (length element is displayed before changing):
 
