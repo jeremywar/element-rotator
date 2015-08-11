@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rotator Example</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        // Call custom cycle function from the global functions file
+        $('.homeBgContainer').cycleContent({
+            speed: 2000,
+            displaytime: 4000
+        });
+    });
+</script>
+
+<div class="homeBgContainer">
+    <!--Can include any elements you want to rotate-->
+    <h1>Why do turkeys gobble?</h1>
+    <h1>How do snakes slither?</h1>
+    <h1>Are all frogs green?</h1>
+</div>
+
+</body>
+</html>
