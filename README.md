@@ -5,7 +5,7 @@ The transition effect for this function is a "fade" with optional speed and disp
 
 ## Installation:
 
-Add the function file to your site as a reference or javascript file.
+Reference function file in your site or copy the function to your javascript file.
 ```javascript  
 	<script src="rotateElements.js"></script>
 ```  
@@ -33,7 +33,7 @@ Target the parent HTML element using jQuery, then add the function below. The de
 ```javascript	
 $('div').cycleContent();
 ```  
-Optional: Adjust the options for the speed of fade transition and/or display time or element.
+*Optional:* Adjust the options for the speed of fade transition and/or display time of element.
 
 ```javascript	
 $('div').cycleContent({

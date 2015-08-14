@@ -1,4 +1,7 @@
-
+/* jeremywar, element-rotator v1.0.0
+A simple, lightweight jQuery plugin for rotating
+through images, text, or other elements.
+www.jeremywaraksa.com / license 2015 */
 
 // Register custom transitions plugin, only 2 options: .cycleContent({speed: 2000, displaytime: 4000})
 ; (function ($) {
